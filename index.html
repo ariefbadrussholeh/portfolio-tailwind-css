@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Arief's Portofolio</title>
+</head>
+<body class="bg-white">
+    <!-- Header Start -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-primary block py-6">ariefbadrus</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-based text-accent py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-based text-accent py-2 mx-8 flex group-hover:text-primary">Tentang Saya</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio" class="text-based text-accent py-2 mx-8 flex group-hover:text-primary">Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#clients" class="text-based text-accent py-2 mx-8 flex group-hover:text-primary">Clients</a>
+                            </li>
+                            <li class="group">
+                                <a href="#blog" class="text-based text-accent py-2 mx-8 flex group-hover:text-primary">Blog</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contacts" class="text-based text-accent py-2 mx-8 flex group-hover:text-primary">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="home" class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Halo semua <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px" class="inline">, saya <span class="block font-bold text-accent text-4xl mt-1 lg:text-5xl">Arief Badrus Sholeh</span></h1>
+                    <h2 class="font-medium text-lg mb-5 text-accent lg:text-2xl">Mahasiswa Teknik Informatika ITS | <span class="font-bold">Web Developer</span></h2>
+                    <p class="font-medium mb-10 leading-relaxed">Tertarik untuk belajar mengenai web development lebih lanjut. Mencoba mendalami HTML, CSS, JavaScript, serta beberapa CSS Framework seperti Bootstrap dan TailwindCSS. Bercita-cita ingin menjadi Full-Stack Developer. </p>
+
+                    <a href="#" class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:bg-light hover:text-primary transition duration-300">Hubungi Saya</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="mt-10 lg:mt-0 lg:right-0">
+                        <img src="./dist/img/profile_pictures.png" alt="Arief Badrus Sholeh" class="max-w-full mx-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="pt-36 pb-32">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-10 lg:w-1/2">
+                    <h4 class="font-bold uppercase text-primary mb-3 text-lg">Tentang Saya</h4>
+                    <h2 class="font-bold text-accent text-3xl mb-5 max-w-md lg:text-4xl">I'm still learning.</h2>
+                    <p class="font-medium text-base max-w-xl text-black lg:text-lg">Saya sedang menempuh semester 4 di Teknik Informatika ITS. Mencoba untuk membuat project website dengan PHP berbasis database PostgreSQL. Saya tertarik juga belajar mengenai game development menggunakan game engine Unity</p>
+                </div>
+                <div class="w_full px-4 lg:w-1/2">
+                    <h3 class="font-semibold text-accent text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
+                    <p class="font-medium text-base mb-6 lg:text-lg">Anda bisa menemukan saya di beberapa sosial media di bawah ini. Jangan lupa follow 😊👍</p>
+                    <div class="flex items-center">
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/ariefbadrussholeh/" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-light text-light hover:bg-primary transition duration-200"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+                        <!-- Twitter -->
+                        <a href="#" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-light text-light hover:bg-primary transition duration-200"><svg role="img" viewBox="0 0 24 24" width="23" class="fill-current" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a>
+                        <!-- Linkedin -->
+                        <a href="https://www.linkedin.com/in/arief-badrus-sholeh/" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-light text-light hover:bg-primary transition duration-200"><svg role="img" viewBox="0 0 24 24" width="22" class="fill-current" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                        <!-- Github -->
+                        <a href="https://github.com/ariefbadrussholeh" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-light text-light hover:bg-primary transition duration-200"><svg role="img" viewBox="0 0 24 24" width="26" class="fill-current" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="portofolio" class="pt-36 pb-16 bg-slate-200">
+        <div class="container">
+            <div class="w-full px-4 ">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Portofolio</h4>
+                    <h2 class="font-bold text-accent text-3xl mb-4 lg:text-4xl">Project Terbaru</h2>
+                    <p class="font-medium text-md text-black md:text-lg">Berikut saya cantumkan beberapa project terbaru yang pernah saya buat baik dari project dengan skala kecil hingga skala besar. Beberapa project terdapat pada github saya.</p>
+                </div>
+            </div>
+            <div class="w-full px-4 flex flex-wrap justify-center xl:w-10/12 xl:mx-auto">
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portofolio/unity-tower-defense.png" alt="unity-tower-defense" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-accent mt-5 mb-3">Tower Defense with A*</h3>
+                    <p class="font-medium text-base">Sebagai tugas project mata kuliah Kecerdasan Buatan. Mengimplementasikan algoritma informed search A* ke dalam sebuah game Tower Defense yang dikembangkan dengan Unity dan bantuan Python.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portofolio/unity-kill-the-covid.png" alt="unity-kill-the-covid" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-accent mt-5 mb-3">Kill The Covid</h3>
+                    <p class="font-medium text-base">Game sederhana yang dikembangkan menggunakan Unity. Game ini bergenre endless run dimana pemain harus membunuh virus covid sebanyak mungkin.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portofolio/java-snake-game.png" alt="java-snake-game" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-accent mt-5 mb-3">Snake Game</h3>
+                    <p class="font-medium text-base">Sebagai tugas project mata kuliah Pemrograman Berorientasi Objek. Dikembangkan menggunakan Java dengan paradigma OOP dan UI dikembangkan menggunakan Java GUI Swing dan Awt.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portofolio/css-grid-marketplace.png" alt="css-grid-marketplace" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-accent mt-5 mb-3">Simple Marketplace Website using CSS Grid</h3>
+                    <p class="font-medium text-base">Website marketplace sederhana yang dibangun menggunakan bantuan CSS Grid. </p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portofolio/vanilla-css-portofolio.png" alt="vanilla-css-portofolioe" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-accent mt-5 mb-3">Portofolio Website using Vanilla CSS</h3>
+                    <p class="font-medium text-base">Sebagai tugas LBE Lab. Alpro Informatika membuat Website Portofolio dengan hanya menggunakan materi-materi dasar HTML, CSS, dan JavaScript.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portofolio/bootstrap-portofolio.png" alt="bootstrap-portofolio" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-accent mt-5 mb-3">Portofolio Website using Bootstrap</h3>
+                    <p class="font-medium text-base">Website portofolio dengan menggunakan bantuan UI Framework Bootstrap.</p>
+                </div>
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden">
+                        <img src="dist/img/portofolio/php-student-database.png" alt="unity-tower-defense" width="w-full">
+                    </div>
+                    <h3 class="font-semibold text-xl text-accent mt-5 mb-3">Simle Student Database</h3>
+                    <p class="font-medium text-base">Website sederhana untuk pengelolaan siswa. Dilengkapi fitur registrasi dan login untuk Admin. Dibangun dengan bantuan PHP dan Database MySQL.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portofolio Section End -->
+
+    <!-- Clients Section Start -->
+    <section id="clients" class="pt-36 pb-32 bg-accent">
+        <div class="container">
+            <div class="w-full px-4 ">
+                <div class="mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-light mb-2">Clients</h4>
+                    <h2 class="font-bold text-white text-3xl lg:text-4xl">Yang Pernah Bekerja Sama</h2>
+                    <p class="mb-4 text-sm text-primary">*hopefully :v</p>
+                    <p class="font-medium text-md text-light md:text-lg">Dibawah ini beberapa perusahaan yang pernah bekerja sama dengan saya.</p>
+                </div>
+            </div>
+            <div class="w-full px-4">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="https://www.gojek.com/id-id/" class="max-w-[180px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/companies/gojek.svg" alt="gojek">
+                    </a>
+                    <a href="https://about.google/" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/companies/google.svg" alt="google">
+                    </a>
+                    <a href="https://www.nasa.gov/" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/companies/nasa.svg" alt="nasa">
+                    </a>
+                    <a href="https://www.spacex.com/" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/companies/spacex.svg" alt="spacex">
+                    </a>
+                    <a href="https://www.tesla.com/" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/companies/tesla.svg" alt="tesla">
+                    </a>
+                    <a href="https://www.tokopedia.com/" class="max-w-[120px] mx-4 py-4 grayscale opacity-60 transition duration-500 hover:grayscale-0 hover:opacity-100 lg:mx-6 xl:mx-8">
+                        <img src="dist/img/companies/tokopedia.svg" alt="tokopedia">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients Section End -->
+
+    <!-- Blog Section Start -->
+    <section id="blog" class="pt-36 pb-32 bg-slate-200">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Blog</h4>
+                    <h2 class="font-bold text-accent text-3xl mb-4 lg:text-4xl">Tulisan Terkini</h2>
+                    <p class="font-medium text-md text-black md:text-lg">Beberapa tulisan berikut saya tulis dengan harapan semoga membantu pembaca lebih mengenal tentang bagaimana dunia programming dapat mengubah dunia.</p>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3 mb-6">
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                            <img src="https://source.unsplash.com/360x200?programming" alt="programming" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3>
+                                    <a href="#" class="block mb-3 font-semibold text-xl text-accent hover:text-primary truncate">Tips Belajar Programming</a>
+                                </h3>
+                                <p class="font-medium text-base text-black mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, doloremque.</p>
+                                <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:bg-light hover:text-primary shadow-lg transition duration-300">Baca selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3 mb-6">
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                            <img src="https://source.unsplash.com/360x200?space" alt="programming" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3>
+                                    <a href="#" class="block mb-3 font-semibold text-xl text-accent hover:text-primary truncate">Bumi itu bulat atau datar?</a>
+                                </h3>
+                                <p class="font-medium text-base text-black mb-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet repudiandae soluta laborum magni consequatur rem.</p>
+                                <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:bg-light hover:text-primary shadow-lg transition duration-300">Baca selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full px-4 lg:w-1/2 xl:w-1/3 mb-6">
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                            <img src="https://source.unsplash.com/360x200?gaming" alt="programming" class="w-full">
+                            <div class="py-8 px-6">
+                                <h3>
+                                    <a href="#" class="block mb-3 font-semibold text-xl text-accent hover:text-primary truncate">Bermain game dapat merangsang stimulus otak</a>
+                                </h3>
+                                <p class="font-medium text-base text-black mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, doloremque. Lorem ipsum dolor sit amet.</p>
+                                <a href="#" class="font-medium text-sm text-white bg-primary py-2 px-4 rounded-lg hover:bg-light hover:text-primary shadow-lg transition duration-300">Baca selengkapnya</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contacts" class="pt-36 pb-32">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
+                    <h2 class="font-bold text-accent text-3xl mb-4 lg:text-4xl">Hubungi Saya</h2>
+                    <p class="font-medium text-md text-black md:text-lg">Silahkan mengisi form contact dibawah ini untuk dapat menghubungi saya.</p>
+                </div>
+            </div>
+            <form action="">
+                <div class="w-full lg:w-2/3 lg:mx-auto">
+                    <div class="w-full px-4 mb-8">
+                        <label for="name" class="text-base text-primary font-bold">Nama</label>
+                        <input type="text" id="name" class="w-full bg-slate-200 text-accent p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="email" class="text-base text-primary font-bold">Email</label>
+                        <input type="email" id="email" class="w-full bg-slate-200 text-accent p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primary">
+                    </div>
+                    <div class="w-full px-4 mb-8">
+                        <label for="pesan" class="text-base text-primary font-bold">Pesan</label>
+                        <textarea name="Pesan" id="Pesan" cols="30" rows="10" class="w-full bg-slate-200 text-accent p-3 rounded-md focus:outline-none focus:ring-1 focus:border-primary"></textarea>
+                    </div>
+                <div class="w-full px-4">
+                        <button class="text-based font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:bg-light hover:text-primary hover:shadow-lg transition duration-300">Kirim</button>
+                </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="bg-accent pt-24 pb-12">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+                    <h2 class="font-bold text-4xl text-white mb-5">ITS</h2>
+                    <h3 class="font-bold text-3xl mb-2">Hubungi Kami</h3>
+                    <p>arifbadrus08@gmail.com</p>
+                    <p>Jl. Raya ITS, Sukolilo</p>
+                    <p>Surabaya</p>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Kategori Tulisan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-light mb-3">Programming</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-light mb-3">Science</a>
+                        </li>
+                        <li>
+                            <a href="#" class="inline-block text-base hover:text-light mb-3">Gaming</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-full px-4 mb-12 md:w-1/3">
+                    <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+                    <ul class="text-slate-300">
+                        <li>
+                            <a href="#home" class="inline-block text-base hover:text-light mb-3">Beranda</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="inline-block text-base hover:text-light mb-3">Tentang Saya</a>
+                        </li>
+                        <li>
+                            <a href="#portofolio" class="inline-block text-base hover:text-light mb-3">Portofolio</a>
+                        </li>
+                        <li>
+                            <a href="#clients" class="inline-block text-base hover:text-light mb-3">Clients</a>
+                        </li>
+                        <li>
+                            <a href="#blog" class="inline-block text-base hover:text-light mb-3">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="inline-block text-base hover:text-light mb-3">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="w-full pt-10 border-t border-light">
+                <div class="flex items-center justify-center mb-5">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/ariefbadrussholeh/" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-light text-white hover:bg-primary transition duration-200"><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg></a>
+                    <!-- Twitter -->
+                    <a href="#" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-light text-white hover:bg-primary transition duration-200"><svg role="img" viewBox="0 0 24 24" width="23" class="fill-current" xmlns="http://www.w3.org/2000/svg"><title>Twitter</title><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg></a>
+                    <!-- Linkedin -->
+                    <a href="https://www.linkedin.com/in/arief-badrus-sholeh/" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-light text-white hover:bg-primary transition duration-200"><svg role="img" viewBox="0 0 24 24" width="22" class="fill-current" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+                    <!-- Github -->
+                    <a href="https://github.com/ariefbadrussholeh" class="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-light text-white hover:bg-primary transition duration-200"><svg role="img" viewBox="0 0 24 24" width="26" class="fill-current" xmlns="http://www.w3.org/2000/svg"><title>GitHub</title><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>                        
+                </div>
+                <p class="font-medium text-[0.75rem] text-slate-500 text-center">Dibuat dengan ❤️ oleh <a href="https://www.instagram.com/ariefbadrussholeh/" target="_blank" class="font-bold text-primary hover:text-light transition duration-200">Arief Badrus Sholeh</a> menggunakan <a href="https://tailwindcss.com" target="_blank" class="font-bold text-sky-500 hover:text-light transition duration-200">Tailwind CSS</a>.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="./dist/js/script.js"></script>
+</body>
+</html>
